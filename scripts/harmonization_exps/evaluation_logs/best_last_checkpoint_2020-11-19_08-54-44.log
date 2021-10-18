@@ -1,0 +1,11 @@
+{'model_type': 'improved_dih256', 'checkpoint': '/home/xiechengjuan/AnacondaProject/image_harmonization-master/harmonization_exps/fixed256/improved_dih/027_iDIH_ssim_focal_loss/checkpoints/best_last_checkpoint.pth', 'datasets': 'HFlickr,HDay2Night,HCOCO,HAdobe5k', 'resize_strategy': 'Fixed256', 'use_flip': False, 'gpu': '0', 'config_path': '../config.yml', 'eval_prefix': ''}
+Load checkpoint from path: /home/xiechengjuan/AnacondaProject/image_harmonization-master/harmonization_exps/fixed256/improved_dih/027_iDIH_ssim_focal_loss/checkpoints/best_last_checkpoint.pth
+--------------------------------------------------------------------------------
+                    |    N     |   MSE    |   fMSE   |   PSNR   | AvgTime, ms  |
+--------------------------------------------------------------------------------
+HFlickr             |   828    |  89.91   |  634.45  |  32.10   |     7.2      |
+HDay2Night          |   133    |  52.78   |  792.75  |  36.74   |     6.8      |
+HCOCO               |   4283   |  22.01   |  377.21  |  37.94   |     6.5      |
+HAdobe5k            |   2160   |  32.11   |  241.67  |  36.61   |     9.1      |
+--------------------------------------------------------------------------------
+Overall             |   7404   |  33.11   |  373.90  |  36.88   |     7.3      |

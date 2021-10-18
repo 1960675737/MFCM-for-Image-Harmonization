@@ -1,0 +1,26 @@
+{'model_type': 'improved_dih256', 'checkpoint': '/home/ivp_01/AnacondaProject/image_harmonization/harmonization_exps/fixed256/improved_dih/008_iDIH_IN_Inception_ECA_batchsize32/checkpoints/best_last_checkpoint.pth', 'datasets': 'HFlickr,HDay2Night,HCOCO,HAdobe5k', 'resize_strategy': 'Fixed256', 'use_flip': False, 'gpu': '1', 'config_path': '../config.yml', 'results_path': '', 'eval_prefix': ''}
+Load checkpoint from path: /home/ivp_01/AnacondaProject/image_harmonization/harmonization_exps/fixed256/improved_dih/008_iDIH_IN_Inception_ECA_batchsize32/checkpoints/best_last_checkpoint.pth
+-------------------------------------------------------------------------
+                            |    N     |   MSE    |   fMSE   |   PSNR   |
+-------------------------------------------------------------------------
+HFlickr (0%-5%)             |   248    |  13.81   |  632.74  |  38.90   |
+HFlickr (5%-15%)            |   234    |  42.71   |  468.51  |  33.39   |
+HFlickr (15%-100%)          |   346    |  141.31  |  442.83  |  28.24   |
+HFlickr (0%-100%)           |   828    |  75.26   |  506.97  |  32.89   |
+HDay2Night (0%-5%)          |    80    |   9.51   |  724.58  |  41.33   |
+HDay2Night (5%-15%)         |    27    |  91.20   | 1414.28  |  30.11   |
+HDay2Night (15%-100%)       |    26    |  179.35  |  778.77  |  28.04   |
+HDay2Night (0%-100%)        |   133    |  59.29   |  875.19  |  36.45   |
+HCOCO (0%-5%)               |   2740   |   7.93   |  353.34  |  40.77   |
+HCOCO (5%-15%)              |   1029   |  22.10   |  253.49  |  36.21   |
+HCOCO (15%-100%)            |   514    |  70.38   |  264.16  |  31.50   |
+HCOCO (0%-100%)             |   4283   |  18.83   |  318.65  |  38.56   |
+HAdobe5k (0%-5%)            |   765    |   6.34   |  263.59  |  42.09   |
+HAdobe5k (5%-15%)           |   665    |  20.89   |  233.35  |  36.52   |
+HAdobe5k (15%-100%)         |   730    |  61.80   |  174.05  |  32.01   |
+HAdobe5k (0%-100%)          |   2160   |  29.56   |  224.02  |  36.97   |
+-------------------------------------------------------------------------
+Overall (0%-5%)             |   3833   |   8.02   |  361.26  |  40.93   |
+Overall (5%-15%)            |   1955   |  25.11   |  288.41  |  35.90   |
+Overall (15%-100%)          |   1616   |  83.44   |  269.99  |  30.98   |
+Overall (0%-100%)           |   7404   |  29.00   |  322.10  |  37.43   |
